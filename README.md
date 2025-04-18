@@ -171,3 +171,12 @@ docker run -p 8000:8000 -e AIPROXY_TOKEN=$AIPROXY_TOKEN your-username/automation
   python -m uv run evaluate.py --email <your-email>
 
   ```
+
+## ✅ Project Status & Evaluation
+* ✅ The agent solves tasks by matching plain-English instructions to corresponding Python functions.
+
+* 🧠 It relies on LLM parsing to understand the task description and map it to the correct function or action.
+
+* 📊 Out of 25 evaluated tasks, the current implementation successfully completes 12, demonstrating functional LLM integration and modular task execution.
+
+* 🚧 Future work includes improving generalization to more diverse task phrasings and enhancing support for complex or multi-step instructions.
