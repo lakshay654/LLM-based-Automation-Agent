@@ -1,8 +1,8 @@
 # TDS Project 1 - LLM-based Automation Agent
 
-## 🔍 Overview
-
-This project implements a **Large Language Model (LLM)-powered Automation Agent** that receives plain-English task descriptions through an API and autonomously performs data processing tasks. It leverages the power of LLMs to understand and execute a wide range of structured and unstructured instructions—across files, APIs, databases, and more—while respecting strict data privacy constraints.
+🧠 Description
+This agent uses a function-calling strategy powered by an LLM, where each task is interpreted in plain English, and the model maps it to an appropriate predefined Python function. Rather than generating code dynamically, the LLM acts as a smart router—selecting and executing the correct function from a library of task handlers based on its understanding of the input instruction.
+This approach ensures better control, safety, and performance for known task types, while still leveraging the language understanding capabilities of the LLM to match diverse task phrasings.
 
 ---
 
